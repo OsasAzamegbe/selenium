@@ -9,4 +9,8 @@ PATH = "C:\\Program Files (x86)\\chromedriver.exe"
 # Instatiate web driver
 driver = webdriver.Chrome(PATH)
 
-driver.get("https://www.google.com/")
+url = "https://www.linkedin.com/"
+driver.get(url)
+
+email = driver.find_element_by_id("session_key")
+password = driver.find_element_by_id("session_password")
