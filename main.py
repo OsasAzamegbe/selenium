@@ -1,5 +1,8 @@
 from selenium import webdriver
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 # download chrome driver for you google chrome verion from: 
 # https://sites.google.com/a/chromium.org/chromedriver/downloads
